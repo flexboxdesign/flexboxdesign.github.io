@@ -2486,15 +2486,23 @@
 			}
 
 			.main_logo {
-			width: 185px;
-			height: 175px;
-			padding-bottom: 20px;
+			width: 40%;
+			height: 40%;
+			margin-bottom: 20px;
 			text-decoration: none;
 		}
 			.logo_link {
 				border-style: none;
 			}
 
+		#bio_image {
+			margin-bottom: 35px;
+			width: 250px;
+			height: 250px;
+			border: solid 4px black;
+}
+
+		
 		
 		
 
@@ -3261,11 +3269,12 @@
 
 					.wrapper.featured > .inner > .image img {
 						border-radius: none;
-						width: 100%;
+						width: 75%;
+						margin: 0 auto;
 					}
 
 				.wrapper.featured > .inner > .content h1 {
-					font-size: 4em;
+					font-size: 3em;
 				}
 
 					.wrapper.featured > .inner > .content h1:before {
@@ -3284,7 +3293,7 @@
 					}
 
 						.wrapper.featured > .inner > .content h1 {
-							font-size: 3.5em;
+							font-size: 2.5em;
 						}
 
 						.wrapper.featured > .inner > .content p {
