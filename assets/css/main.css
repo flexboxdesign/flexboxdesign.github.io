@@ -2497,7 +2497,7 @@
 
 			.logo {
 			width: 150px;
-			height: 165px;
+			height: 150px;
 			margin-bottom: 0px;
 			text-decoration: none;
 			}
@@ -2509,9 +2509,7 @@
 			border: solid 4px black;
 }
 
-		
-		
-		
+				
 
 /* List */
 
@@ -3276,7 +3274,7 @@
 
 					.wrapper.featured > .inner > .image img {
 						border-radius: none;
-						width: 75%;
+						width:70%;
 						margin: 0 auto;
 					}
 
