@@ -1726,9 +1726,9 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: inherit;
-		font-weight: 300;
+		font-weight: 400;
 		line-height: 1.5;
-		margin: 0 0 1.75rem 0;
+		margin: 0 0 2rem 0;
 		letter-spacing: 0.05em;
 	}
 
@@ -1815,6 +1815,13 @@
 			}
 
 		}
+
+	#first,
+	#second, 
+	#third {
+		text-align:center;
+		margin: 0 0 1rem 0; 
+	}
 
 	h5 {
 		font-size: 0.9em;
@@ -2055,6 +2062,13 @@
 				background-color: rgba(86, 86, 86, 0.075);
 				color: inherit !important;
 			}
+
+	
+
+		.slidebuttons {
+			text-align: center;
+			margin: 10px;
+		}
 
 /* Form */
 
@@ -2412,7 +2426,7 @@
 		.inner p {
 			font-size: 1.2em;
 			width: 100%;
-			margin: 0 auto;
+			margin: 1em 0 auto;
 			padding-bottom: .5em;
 		}
 
@@ -2421,11 +2435,11 @@
 		}
 
 		.inner h3 {
-			padding-top: 1em;
+			padding-top: 0em;
 		}
 
 		.image p {
-			padding-bottom: 2em;
+			padding-top: 0em;
 		}
 
 		#center_service {
@@ -2477,8 +2491,9 @@
 
 		.image.main {
 			display: block;
-			margin: 0 0 3em 0;
+			margin: 0em 0 0em 0;
 			width: 100%;
+			
 		}
 
 			.image.main img {
@@ -2508,6 +2523,10 @@
 			height: 250px;
 			border: solid 4px black;
 }
+		.slideborder {
+			border:1px solid black;
+
+		}
 
 				
 
@@ -3452,6 +3471,14 @@
 
 		}
 
+		@media screen and (min-width: 850px) {
+
+			.wrapper > .inner {
+				width: 70%;
+			}
+
+		}
+
 /* Header */
 
 	#header {
@@ -3495,7 +3522,7 @@
 					-ms-transition: width 0.2s ease, border-radius 0.2s ease, color 0.2s ease;
 					transition: width 0.2s ease, border-radius 0.2s ease, color 0.2s ease;
 					-webkit-tap-highlight-color: transparent;
-					background-color: rgba(73, 73, 73, 0.9);
+					background-color: #797D7F;
 					border-radius: 100%;
 					color: #565656;
 					overflow: hidden;
@@ -3758,7 +3785,7 @@
 			right: 2em;
 			width: 3.75em;
 			height: 3.75em;
-			background-color: #565656;
+			background-color: #797D7F;
 			border-radius: 100%;
 			z-index: -1;
 		}
@@ -3975,5 +4002,11 @@
 			}
 
 		}
+
+	/* Contact  */
+
+
+
+
 
 
